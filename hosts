@@ -1,0 +1,14 @@
+[apt]
+vpn.makerscache.com ansible_ssh_user=root
+makerscache.com ansible_ssh_user=root
+matrix.makerscache.com ansible_ssh_user=root
+mail.makerscache.com ansible_ssh_user=root
+meet.makerscache.com ansible_ssh_user=root
+fts.makerscache.com ansible_ssh_user=root
+unifiednetops.com ansible_ssh_user=root
+vpn-can.makerscache.com ansible_ssh_user=root
+vpn-nl.makerscache.com ansible_ssh_user=root
+vpn-gb.makerscache.com ansible_ssh_user=root
+
+[Archlinux]
+192.168.4.128 ansible_ssh_user=mtkell ansible_become_pass='{{archlinux_box_sudo_pass}}'
