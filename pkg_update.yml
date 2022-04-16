@@ -1,6 +1,9 @@
 - hosts: apt
   become: yes
 
+  vars_files:
+   - ./passwd.yml
+
   tasks:
   - name: Update all installed packages using APT module
     apt:
@@ -19,11 +22,12 @@
       post_reboot_delay: 60
     when: apt_update_status.changed
 
+
 - hosts: Archlinux
   become: yes
 
   vars_files:
-   - /mnt/c/Users/mtkel/ansible/weekly-updates/passwd.yml
+   - ./passwd.yml
 
   tasks:
   - name: Update all installed packages using PACMAN module
