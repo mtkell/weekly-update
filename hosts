@@ -1,5 +1,4 @@
 [apt]
-vpn.makerscache.com ansible_ssh_user=root
 makerscache.com ansible_ssh_user=root
 matrix.makerscache.com ansible_ssh_user=root
 mail.makerscache.com ansible_ssh_user=root
