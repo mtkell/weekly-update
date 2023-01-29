@@ -6,8 +6,9 @@ unifiednetops.com ansible_ssh_user=root
 vpn-can.makerscache.com ansible_ssh_user=root
 vpn-nl.makerscache.com ansible_ssh_user=root
 vpn-gb.makerscache.com ansible_ssh_user=root
+tsi.kellfamilyhome.com ansible_ssh_user=mtkell ansible_become_pass='{{localhost_box_sudo_pass}}'
 kellfamilyhome.com ansible_ssh_user=mtkell ansible_become_pass='{{localhost_box_sudo_pass}}'
-lightburn.kellfamilyhome.com ansible_ssh_user=mtkell ansible_become_pass='{{localhost_box_sudo_pass}}'
+#lightburn.kellfamilyhome.com ansible_ssh_user=mtkell ansible_become_pass='{{localhost_box_sudo_pass}}'
 
 [Archlinux]
 192.168.4.128 ansible_ssh_user=mtkell ansible_become_pass='{{archlinux_box_sudo_pass}}'
