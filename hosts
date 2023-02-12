@@ -11,4 +11,4 @@ kellfamilyhome.com ansible_ssh_user=mtkell ansible_become_pass='{{localhost_box_
 #lightburn.kellfamilyhome.com ansible_ssh_user=mtkell ansible_become_pass='{{localhost_box_sudo_pass}}'
 
 [Archlinux]
-192.168.4.128 ansible_ssh_user=mtkell ansible_become_pass='{{archlinux_box_sudo_pass}}'
+#192.168.4.128 ansible_ssh_user=mtkell ansible_become_pass='{{archlinux_box_sudo_pass}}'
