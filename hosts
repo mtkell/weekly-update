@@ -3,7 +3,7 @@ makerscache.com ansible_ssh_user=root
 #kellcreations.co ansible_ssh_user=root
 mail.makerscache.com ansible_ssh_user=root
 #fts.makerscache.com ansible_ssh_user=root
-unifiednetops.com ansible_ssh_user=root
+#unifiednetops.com ansible_ssh_user=root
 shibatee.com ansible_ssh_user=root
 kellengineering.com ansible_ssh_user=root
 #kellsupport.com ansible_ssh_user=root
@@ -14,6 +14,7 @@ kellsupport.com ansible_ssh_user=mtkell ansible_become_pass='{{localhost_box_sud
 #192.168.4.52 ansible_ssh_user=pi ansible_become_pass='{{pi_box_sudo_pass}}'
 plex.kellfamilyhome.com ansible_ssh_user=pi ansible_become_pass='{{pi_box_sudo_pass}}'
 #192.168.4.65 ansible_ssh_user=pi ansible_become_pass='{{pi_box_sudo_pass}}'
+vpn.kellfamilyhome.com ansible_ssh_user=pi ansible_become_pass='{{pi_box_sudo_pass}}'
 #192.168.254.122 ansible_ssh_user=pi ansible_become_pass='{{pi_box_sudo_pass}}'
 #192.168.254.123 ansible_ssh_user=pi ansible_become_pass='{{pi_box_sudo_pass}}'
 #lightburn.kellfamilyhome.com ansible_ssh_user=mtkell ansible_become_pass='{{localhost_box_sudo_pass}}'
